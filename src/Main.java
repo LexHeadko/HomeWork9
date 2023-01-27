@@ -13,6 +13,6 @@ public class Main {
 
     public static void task1() {
         System.out.println("Задача 1");
-
+        int[] arr = new int[9];
     }
 }
