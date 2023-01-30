@@ -32,14 +32,11 @@ public class Main {
         System.out.println("Задача 2");
         int [] arr = generateRandomArray();
         int max = 0;
+        int min = 200001;
         for (final int current : arr) {
             if (max < current) {
                 max = current;
-            }
-        }
-         int min = max;
-        for (final int current : arr) {
-            if (min > current) {
+            } else if (min > current) {
                 min = current;
             }
         }
